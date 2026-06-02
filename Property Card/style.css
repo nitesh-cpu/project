@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.box{
+  height: 1000px;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(144, 185, 185);
+  
+}
+.image {
+  background-image: url("https://media.vrbo.com/lodging/112000000/111120000/111113600/111113535/473e0b03.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill");
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.btn {
+  height: 35px;
+  width: 70px;
+  color: white;
+  background-color: rgb(250, 1, 1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.image {
+  position: relative;
+}
+
+.like {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center; 
+  line-height: 35px; 
+}
+
+.content{
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.content h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.price{
+  color: rgb(0, 255, 34);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details{
+  color: gray;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.book-btn{
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  left: 700px;
+}

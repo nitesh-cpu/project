@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo h2 {
+    color: red;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: white;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sidebar ul li:hover {
+    background: #eee;
+}
+
+/* Video Section */
+.videos {
+    margin-top: 90px;
+    margin-left: 240px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-card h4 {
+    margin-top: 10px;
+}
+
+.video-card p {
+    color: gray;
+    font-size: 14px;
+}

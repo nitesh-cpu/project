@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(to right,blue,pink);
+}
+.card{
+  width: 250px;
+  height: 400px;
+  background-color: rgb(247, 136, 72);
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background: linear-gradient(to right,rgb(0, 98, 255),pink);
+
+}
+.profile{
+  text-align: center;
+  color: blueviolet;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.image{
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  background-image: url("doreman.webp");
+  background-size: cover;
+ 
+}
+.name{
+  text-align: center;
+  margin-top: 10px;
+}
+.stack{
+  text-align: center;
+  margin: 20px;
+}
+.btn{
+  margin-left: 40%;
+  background-color: green;
+  width: 70px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 5px;
+ 
+}

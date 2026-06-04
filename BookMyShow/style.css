@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #efecec;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: #ffffffba;
+    height: 64px;
+    padding: 0 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/* LEFT */
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.search-box {
+    width: 520px;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid rgb(1, 255, 255);
+    display: flex;
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+.search-box i {
+    color: gray;
+    margin-right: 10px;
+}
+
+.search-box input {
+    display: flex;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  
+}
+
+/* .search-box input::placeholder {
+    color: red;
+} */
+/* RIGHT */
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: 600px;
+}
+
+.city {
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn {
+    background: #f84464;
+    border: none;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu {
+    color: rgb(14, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px) {
+
+    .navbar {
+        padding: 15px;
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .left {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+}
+
+
+
+/* sub-nevbar */
+
+.sub-nevbar{
+  margin: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-links,.right-links{
+  display: flex;
+  justify-content: space-evenly;
+  gap:30px;
+ padding: 10px;
+}
+.left-links,.right-links,a{
+  text-decoration: none;
+}
+hr{
+  color: #ac9292;
+  opacity: 0.3;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 95%;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info h1 {
+    margin: 0;
+}
+
+.info span {
+    color: rgb(220, 53, 88);
+    white-space: nowrap;
+}
+
+.movie-card {
+    margin: 40px 40px 10px 40px;
+}
+.card {
+    width: 250px;
+}
+
+.card img {
+    width: 250px;
+    height: 350px;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 250px;
+    height: 35px;
+
+    background-color: black;
+    color: white;
+
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    /* agar ye laga hua hai to hata do */
+    position: static;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card-info {
+    margin-top: 10px;
+}
+
+.card-info p,span {
+    margin: 0;
+    font-size: large;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad img{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    width: 270px;
+    height: 350px;
+    border-radius: 8px;
+    
+}
+.events h1{
+    margin-bottom: 20px;
+}
+
+.big-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    border-radius: 2px;
+    background-image: url(https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    height: 700px;
+}
+
+.music-events img{
+    width: 270px;
+    height: 450px;
+    border-radius: 15px;
+}

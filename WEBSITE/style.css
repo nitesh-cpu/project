@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head{
+  height: 40px;
+  width: 100%;
+  background-color: antiquewhite;
+  position: fixed;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.anc{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+main{
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  text-align: center;
+}
+.footer{
+  background-color: black;
+  height: 700px;
+}

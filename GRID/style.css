@@ -1,0 +1,12 @@
+.grid{
+  background-color:aqua;
+  display: grid;
+   gap: 10px;
+   grid-template-columns: 100px 300px 500px;
+}
+.grid .txt{
+  background-color:white;
+  padding: 15px;
+  margin: 10px;
+ 
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border: 2px solid yellowgreen;
+  transition: all 0.4s ease-out;
+  
+}
+
+.box:hover {
+  transform: scale(1.1);
+  border-radius: 50%;
+ 
+   
+}

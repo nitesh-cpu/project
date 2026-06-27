@@ -1,0 +1,32 @@
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: aqua;
+    padding: 15px;
+    margin: 10px;
+}
+
+li:first-child {
+    color: red;
+    font-weight: bold;
+}
+li:last-child{
+  color: blue;
+  font-weight: bold;
+}
+li:nth-child(3){
+  color: chartreuse;
+}
+h1::after{
+  content: "*";
+  color: red;
+}
+p::selection{
+  color: rgb(0, 68, 255);
+  /* background-color: rgb(25, 0, 255); */
+}
